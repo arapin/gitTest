@@ -24,3 +24,6 @@ git checkout master
 git add .
 git commit -m "내용"
 git push origin master
+
+**작업 시작 전
+git pull
