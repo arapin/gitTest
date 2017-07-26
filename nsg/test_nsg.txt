@@ -21,6 +21,7 @@ git push origin nsg
 
 
 git checkout master
+git merge nsg
 git add . //GS1702803@GS1702803-PC MINGW32 /d/firstmall_Git/gitTest (master) 에서 진행
 git commit -m "내용"
 git push origin master
