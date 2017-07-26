@@ -16,12 +16,12 @@ git chekcout {브랜치명}
 git add *
 git config --global user.email "nsk@gabiacns.com"
 git config --global user.name "nsg"
-git commit  반영할 파일의 # 제거하고 :wq 입력
+git commit  //반영할 파일의 # 제거하고 :wq 입력
 git push origin nsg
 
 
 git checkout master
-git add .
+git add . //GS1702803@GS1702803-PC MINGW32 /d/firstmall_Git/gitTest (master) 에서 진행
 git commit -m "내용"
 git push origin master
 
