@@ -1,4 +1,7 @@
+<<<GIT 사용법 남슬기 작성 (feat . 류혜미대리님)>>>
+
 git test url : https://github.com/arapin/gitTest.git
+내꺼 test url : https://github.com/bewitch4
 
 git test 방법
 
