@@ -2,11 +2,25 @@ git test url : https://github.com/arapin/gitTest.git
 
 git test 방법
 
-1. https://github.com 이 사이트에 회원 가입을 한다.
+1. https://github.com 이 사이트에 회원 가입 -> https://github.com/settings/profile 에서 email을 선택하고 관리자에게 계정등록 요청
 2. 동봉되어 있는 Git 프로그램을 설치를 한다.
 3. 설치후에 Git을 테스트 할 폴더를 생성 한다.
 4. 생성된 폴더에서 마우스 오른쪽버튼을 클릭 Git Bash Here를 클릭해서 Git Bash 창을 연다.
 5. 이미 생성된 Git을 Clone 한다. (실행 명령어 : git clone https://github.com/arapin/gitTest.git)
-6. Git Bash 화면에서 여러가지 테스트를 해본다.
+6. 수정 작업
 
-p.s : 현재 제가 테스트를 한 jhs 폴더가 있습니다. 테스트 하실때는 각자의 이니셜로 폴더를 만들고 테스트를 해주십시요.
+git checkout master
+git branch {브랜치명}
+git chekcout {브랜치명}
+
+git add *
+git config --global user.email "nsk@gabiacns.com"
+git config --global user.name "nsg"
+git commit
+git push origin nsg
+
+
+git checkout master
+git add .
+git commit -m "내용"
+git push origin master
