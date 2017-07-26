@@ -9,6 +9,9 @@ git test 방법
 5. 이미 생성된 Git을 Clone 한다. (실행 명령어 : git clone https://github.com/arapin/gitTest.git)
 6. 수정 작업
 
+** 작업 시작 전
+git pull
+
 git checkout master
 git branch {브랜치명}
 git chekcout {브랜치명}
@@ -25,6 +28,3 @@ git merge nsg
 git add . //GS1702803@GS1702803-PC MINGW32 /d/firstmall_Git/gitTest (master) 에서 진행
 git commit -m "내용"
 git push origin master
-
-** 작업 시작 전
-git pull
